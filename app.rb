@@ -4,7 +4,7 @@ get '/' do
   erb :index
   end
 
-  past '/greet' do
+  post '/greet' do
     erb :greet
   end
 end
